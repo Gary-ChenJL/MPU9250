@@ -12,7 +12,7 @@ The project is inspired by [MPU6050](https://github.com/leech001/MPU6050) projec
 The provided example is designed to work with the STM32F103C8T6 microcontroller. If you want to use another microcontroller, you need to update the Handlers configuration accordingly.\
 For STM32F103C8T6 configuration, the following channels are used:
 I2C1 - PB6, PB7\
-![i2c1_setup](https://github.com/Gary-ChenJL/MPU9250/blob/main/images/i2c_setup.PNGhttps://github.com/Gary-ChenJL/MPU9250/blob/main/images/i2c_setup.PNG)\
+![i2c1_setup](https://github.com/Gary-ChenJL/MPU9250/blob/main/images/i2c_setup.PNG)\
 UART1 - PA9, PA10\
 ![uart1_setup](https://github.com/Gary-ChenJL/MPU9250/blob/main/images/uart_setup.PNG)\
 The MPU9250 is connected to the I2C1 bus.\

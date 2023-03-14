@@ -1,0 +1,12 @@
+../Core/Src/MPU6500.c:17:9:MPU6500_init	48	static
+../Core/Src/MPU6500.c:109:9:readAK8963Register	48	static
+../Core/Src/MPU6500.c:131:6:readAK8963Data	48	static
+../Core/Src/MPU6500.c:152:6:writeAK8963Register	56	static
+../Core/Src/MPU6500.c:174:6:MPU6500_readAll	40	static
+../Core/Src/MPU6500.c:196:6:MPU6500_calibrate	48	static
+../Core/Src/MPU6500.c:221:6:MPU6500_getValues	8	static
+../Core/Src/MPU6500.c:236:6:MPU6500_transmitUART	72	static
+../Core/Src/MPU6500.c:246:6:MPU9250_Set_MagMode	16	static
+../Core/Src/MPU6500.c:58:9:MPU9250_initMagnetometer	56	static
+../Core/Src/MPU6500.c:264:6:MPU9250_Read_AK8963Data	40	static
+../Core/Src/MPU6500.c:291:6:MPU9250_transmitUART	104	static
