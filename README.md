@@ -1,6 +1,6 @@
 # MPU9250
 
-C Library for the **9-axis** MPU9250 IMU without Karman filtering. The project is created on the STM32Cube IDE platform and a functional example is provided.\
+This project is created with C for the **9-axis** MPU9250 IMU. The project is created on the STM32Cube IDE platform and a functional example is provided.\
 The library is based on the I2C communication protocol. It is not fully tested, but it works well. If you find any bugs, please let me know.
 \
 
@@ -105,7 +105,7 @@ Make sure to enable floating point support for printf in the project settings. T
 ![setting](https://github.com/Gary-ChenJL/MPU9250/blob/main/images/proj_setting.PNG)\
 Alternatively, you can add "-u \_printf_float" as linker option\
 If you experience related issues, please refer to [this link](https://community.st.com/s/question/0D50X0000AldaPzSQI/cubeide-sprintf-does-not-work-with-f) about more detailed info.
-
+If you wish to add Kalman filtering to the project, please refer to [this project](https://github.com/TKJElectronics/KalmanFilter) from TKJElectronics for more info.
 # References
 The project is inspired by [MPU6050](https://github.com/leech001/MPU6050) project from leech001 and [MPU9250](https://github.com/wollewald/MPU9250_WE) project from wollewald.\
 # License
